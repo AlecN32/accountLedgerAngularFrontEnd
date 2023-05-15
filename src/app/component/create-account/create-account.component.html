@@ -1,0 +1,33 @@
+<div class="col-md-6 offset-md-3">
+
+<h3>Create Account</h3>
+
+<form #addForm="ngForm" (ngSubmit) ="onSubmit(addForm)">
+
+    <div class="form-group">
+        <label>Account Name</label>
+
+        <input type="text" class="form-control"  id = "accountName"
+        ngModel  name = "accountName">
+
+    </div> 
+
+    <div class="form-group">
+        <label>Account Number</label>
+
+        <input type="text" class="form-control"  id = "accountNumber"
+        ngModel name = "accountNumber">
+
+    </div> 
+
+    <div class="form-group">
+        <label>Account Balance</label>
+
+        <input type="text" class="form-control"  id = "accountBalance"
+        ngModel name = "accountBalance">
+    </div> 
+
+    <button class = "btn btn-success" type ="submit">Submit</button>
+
+</form>
+</div>

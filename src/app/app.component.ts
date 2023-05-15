@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'accountLedgerFontEnd';
+  title = 'Account Ledger API';
 }
